@@ -436,7 +436,7 @@ You can download the PDF and Epub version of this repository from the latest run
     <div id='login-btn'>Login</div>
     ```
 
-    Whereas a **component** can be declared in several different ways. It can be a class with a `render()` method. Alternatively, in simple cases, it can be defined as a function. In either case, it takes props as an input, and returns a JSX tree as the output:
+    Components are independent and reusable bits of code. They serve the same purpose as JavaScript functions, but work in isolation and returns HTML via a render function. Components come in two types, Class components and Function components. In either case, it takes props as an input, and returns a JSX tree as the output:
 
     ```javascript
     const Button = ({ onLogin }) =>
